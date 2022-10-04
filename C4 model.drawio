@@ -1,46 +1,57 @@
 <mxfile host="65bd71144e">
+    <diagram id="FTzMz3gokBQz7Hya6kf2" name="Experto">
+        <mxGraphModel dx="592" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="3sKkSKngLa2F4I1ndjyJ-0"/>
+                <mxCell id="3sKkSKngLa2F4I1ndjyJ-1" parent="3sKkSKngLa2F4I1ndjyJ-0"/>
+                <mxCell id="3sKkSKngLa2F4I1ndjyJ-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Web&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(str): Callable&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="3sKkSKngLa2F4I1ndjyJ-1">
+                    <mxGeometry x="180" y="150" width="294" height="163" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="fJhNr3JDm2Q-xxupamvg" name="DI">
-        <mxGraphModel dx="789" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="592" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="kg9b5pZEgGHh4r91lHpU-0"/>
                 <mxCell id="kg9b5pZEgGHh4r91lHpU-1" parent="kg9b5pZEgGHh4r91lHpU-0"/>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-2" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;StorageWritter&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ writer(str): Callable&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-2" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;i style=&quot;font-size: 16px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;StorageWritter&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ writer(str): Callable&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="kg9b5pZEgGHh4r91lHpU-1" vertex="1">
                     <mxGeometry x="140" y="260" width="270" height="141.77525773195876" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-3" value="service" style="html=1;fontSize=16;" vertex="1" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-3" value="service" style="html=1;fontSize=16;" parent="kg9b5pZEgGHh4r91lHpU-1" vertex="1">
                     <mxGeometry x="559" y="305.3680824742268" width="203.67" height="51.03909278350516" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;fontSize=16;endArrow=block;endFill=0;" edge="1" source="kg9b5pZEgGHh4r91lHpU-12" target="kg9b5pZEgGHh4r91lHpU-2" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;fontSize=16;endArrow=block;endFill=0;" parent="kg9b5pZEgGHh4r91lHpU-1" source="kg9b5pZEgGHh4r91lHpU-12" target="kg9b5pZEgGHh4r91lHpU-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;dashed=1;fontSize=16;endArrow=classic;endFill=1;" edge="1" source="kg9b5pZEgGHh4r91lHpU-3" target="kg9b5pZEgGHh4r91lHpU-2" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;dashed=1;fontSize=16;endArrow=classic;endFill=1;" parent="kg9b5pZEgGHh4r91lHpU-1" source="kg9b5pZEgGHh4r91lHpU-3" target="kg9b5pZEgGHh4r91lHpU-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-6" value="&amp;lt;&amp;lt;depende&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kg9b5pZEgGHh4r91lHpU-5">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-6" value="&amp;lt;&amp;lt;depende&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="kg9b5pZEgGHh4r91lHpU-5" vertex="1" connectable="0">
                     <mxGeometry x="-0.118" relative="1" as="geometry">
                         <mxPoint x="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;dashed=1;endArrow=classic;endFill=1;fontSize=16;" edge="1" source="kg9b5pZEgGHh4r91lHpU-3" target="kg9b5pZEgGHh4r91lHpU-11" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;dashed=1;endArrow=classic;endFill=1;fontSize=16;" parent="kg9b5pZEgGHh4r91lHpU-1" source="kg9b5pZEgGHh4r91lHpU-3" target="kg9b5pZEgGHh4r91lHpU-11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-8" value="&amp;lt;&amp;lt;usa&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kg9b5pZEgGHh4r91lHpU-7">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-8" value="&amp;lt;&amp;lt;usa&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="kg9b5pZEgGHh4r91lHpU-7" vertex="1" connectable="0">
                     <mxGeometry x="-0.1783" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;dashed=1;fontSize=16;endArrow=classic;endFill=1;" edge="1" source="kg9b5pZEgGHh4r91lHpU-11" target="kg9b5pZEgGHh4r91lHpU-12" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;dashed=1;fontSize=16;endArrow=classic;endFill=1;" parent="kg9b5pZEgGHh4r91lHpU-1" source="kg9b5pZEgGHh4r91lHpU-11" target="kg9b5pZEgGHh4r91lHpU-12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-10" value="&amp;lt;&amp;lt;crea&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kg9b5pZEgGHh4r91lHpU-9">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-10" value="&amp;lt;&amp;lt;crea&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="kg9b5pZEgGHh4r91lHpU-9" vertex="1" connectable="0">
                     <mxGeometry x="-0.3094" y="-4" relative="1" as="geometry">
                         <mxPoint x="-25" y="-4" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-11" value="context" style="html=1;fontSize=16;" vertex="1" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-11" value="context" style="html=1;fontSize=16;" parent="kg9b5pZEgGHh4r91lHpU-1" vertex="1">
                     <mxGeometry x="574.6700000000001" y="496.6235051546392" width="170.67" height="44.813773195876294" as="geometry"/>
                 </mxCell>
-                <mxCell id="kg9b5pZEgGHh4r91lHpU-12" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;b&gt;S3Writter&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ writer(str): Callabke&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="kg9b5pZEgGHh4r91lHpU-1">
+                <mxCell id="kg9b5pZEgGHh4r91lHpU-12" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;b&gt;S3Writter&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ writer(str): Callabke&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="kg9b5pZEgGHh4r91lHpU-1" vertex="1">
                     <mxGeometry x="140" y="461.4701030927835" width="270" height="115.12577319587628" as="geometry"/>
                 </mxCell>
             </root>
@@ -51,13 +62,13 @@
             <root>
                 <mxCell id="yORs_YGZWSQfCxJo0j6U-0"/>
                 <mxCell id="yORs_YGZWSQfCxJo0j6U-1" parent="yORs_YGZWSQfCxJo0j6U-0"/>
-                <mxCell id="yORs_YGZWSQfCxJo0j6U-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Web&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(str): Callable&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="yORs_YGZWSQfCxJo0j6U-1">
+                <mxCell id="yORs_YGZWSQfCxJo0j6U-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Web&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(str): Callable&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="yORs_YGZWSQfCxJo0j6U-1" vertex="1">
                     <mxGeometry x="180" y="150" width="294" height="163" as="geometry"/>
                 </mxCell>
-                <mxCell id="yORs_YGZWSQfCxJo0j6U-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;FastWeb&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- api: FastApi&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- server: CustomServer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="yORs_YGZWSQfCxJo0j6U-1">
+                <mxCell id="yORs_YGZWSQfCxJo0j6U-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;FastWeb&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- api: FastApi&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- server: CustomServer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="yORs_YGZWSQfCxJo0j6U-1" vertex="1">
                     <mxGeometry x="520" y="154" width="290" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="yORs_YGZWSQfCxJo0j6U-4" style="edgeStyle=none;html=1;endArrow=block;endFill=0;fontSize=16;" edge="1" parent="yORs_YGZWSQfCxJo0j6U-1" source="yORs_YGZWSQfCxJo0j6U-3" target="yORs_YGZWSQfCxJo0j6U-2">
+                <mxCell id="yORs_YGZWSQfCxJo0j6U-4" style="edgeStyle=none;html=1;endArrow=block;endFill=0;fontSize=16;" parent="yORs_YGZWSQfCxJo0j6U-1" source="yORs_YGZWSQfCxJo0j6U-3" target="yORs_YGZWSQfCxJo0j6U-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
@@ -122,23 +133,23 @@
         </mxGraphModel>
     </diagram>
     <diagram id="NgFXY-Y-ASkh0wqZt1AW" name="Open/Close">
-        <mxGraphModel dx="1973" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="592" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="8ryZC9Tjpj5PKmv2zzlS-0"/>
                 <mxCell id="8ryZC9Tjpj5PKmv2zzlS-1" parent="8ryZC9Tjpj5PKmv2zzlS-0"/>
-                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Web&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(str): Callable&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="8ryZC9Tjpj5PKmv2zzlS-1">
+                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Web&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(str): Callable&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="8ryZC9Tjpj5PKmv2zzlS-1" vertex="1">
                     <mxGeometry x="280" y="150" width="294" height="163" as="geometry"/>
                 </mxCell>
-                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;FastWeb&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- api: FastApi&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- server: CustomServer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="8ryZC9Tjpj5PKmv2zzlS-1">
+                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;FastWeb&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- api: FastApi&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;- server: CustomServer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 16px;&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;+ websocket(): Callable&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="8ryZC9Tjpj5PKmv2zzlS-1" vertex="1">
                     <mxGeometry x="284" y="390" width="290" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-4" style="edgeStyle=none;html=1;endArrow=block;endFill=0;fontSize=16;" edge="1" source="8ryZC9Tjpj5PKmv2zzlS-3" target="8ryZC9Tjpj5PKmv2zzlS-2" parent="8ryZC9Tjpj5PKmv2zzlS-1">
+                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-4" style="edgeStyle=none;html=1;endArrow=block;endFill=0;fontSize=16;" parent="8ryZC9Tjpj5PKmv2zzlS-1" source="8ryZC9Tjpj5PKmv2zzlS-3" target="8ryZC9Tjpj5PKmv2zzlS-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;fontSize=20;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;strokeColor=#33FF33;" edge="1" parent="8ryZC9Tjpj5PKmv2zzlS-1" source="8ryZC9Tjpj5PKmv2zzlS-5" target="8ryZC9Tjpj5PKmv2zzlS-3">
+                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;fontSize=20;fontColor=#FF0000;startArrow=none;startFill=0;endArrow=block;endFill=0;strokeWidth=1;strokeColor=#33FF33;" parent="8ryZC9Tjpj5PKmv2zzlS-1" source="8ryZC9Tjpj5PKmv2zzlS-5" target="8ryZC9Tjpj5PKmv2zzlS-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-5" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;FastWebModified&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;- api: FastApi&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;- server: CustomServer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px&quot;&gt;+ websocket(): Callable&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;strokeColor=#33FF33;" vertex="1" parent="8ryZC9Tjpj5PKmv2zzlS-1">
+                <mxCell id="8ryZC9Tjpj5PKmv2zzlS-5" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;FastWebModified&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;- api: FastApi&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;- server: CustomServer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ route(str, list[str], **kwargs): Callable&lt;br style=&quot;font-size: 16px&quot;&gt;+ middleware(Type, Type): Callable&lt;br style=&quot;font-size: 16px&quot;&gt;+ websocket(): Callable&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;strokeColor=#33FF33;" parent="8ryZC9Tjpj5PKmv2zzlS-1" vertex="1">
                     <mxGeometry x="284" y="650" width="290" height="155" as="geometry"/>
                 </mxCell>
             </root>
@@ -149,7 +160,7 @@
             <root>
                 <mxCell id="haDmwpyoT-6bK0_a54y5-0"/>
                 <mxCell id="haDmwpyoT-6bK0_a54y5-1" parent="haDmwpyoT-6bK0_a54y5-0"/>
-                <mxCell id="haDmwpyoT-6bK0_a54y5-2" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;KafkaEventSender&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ producer: Producer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;+ sender(str): Callable&lt;/font&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" vertex="1" parent="haDmwpyoT-6bK0_a54y5-1">
+                <mxCell id="haDmwpyoT-6bK0_a54y5-2" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;KafkaEventSender&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;+ producer: Producer&lt;/p&gt;&lt;hr style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;+ sender(str): Callable&lt;/font&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=16;fontFamily=Helvetica;html=1;" parent="haDmwpyoT-6bK0_a54y5-1" vertex="1">
                     <mxGeometry x="200" y="100" width="290" height="111.75" as="geometry"/>
                 </mxCell>
             </root>
@@ -170,7 +181,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5KK8XDdy6giM4tTjk7wO" name="Bajo Acoplamiento">
-        <mxGraphModel dx="1076" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="592" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="RW1Rsz4GaHKzIMtBWbJi-0"/>
                 <mxCell id="RW1Rsz4GaHKzIMtBWbJi-1" parent="RW1Rsz4GaHKzIMtBWbJi-0"/>
@@ -215,7 +226,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="jTZ0jcB4aU4KlYSJ2vVw" name="Experto">
-        <mxGraphModel dx="2960" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="592" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ZyLOiIazlel-UhDH7bm7-0"/>
                 <mxCell id="ZyLOiIazlel-UhDH7bm7-1" parent="ZyLOiIazlel-UhDH7bm7-0"/>
